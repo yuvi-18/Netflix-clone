@@ -1,0 +1,520 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif, Arial, Helvetica;
+}
+
+body {
+    background-color: black;
+}
+
+.btn:hover {
+    background-color: rgb(201, 5, 5);
+    cursor: pointer;
+}
+
+/* bg img of clone */
+
+.main {
+    background-image: url("Assets/cover.jpg");
+    height: 120vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+.main .box {
+    height: 120vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+}
+
+/* navbar of clone */
+
+nav {
+    display: flex;
+    height: 15vh;
+    align-items: center;
+    margin: auto;
+    width: 75vw;
+    position: relative;
+    z-index: 10;
+    justify-content: space-between;
+}
+
+nav img {
+    height: 7vh;
+}
+
+nav select {
+    background-color: transparent;
+    color: white;
+    border-radius: 2px;
+    padding: 1vh 1vw;
+    margin-right: 2vw;
+}
+
+nav select option {
+    color: black;
+}
+
+nav button {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 1vh 1vw;
+}
+
+/* hero section of clone */
+
+.hero {
+    position: relative;
+    height: 77%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5vh;
+    text-align: center;
+    align-items: center;
+    padding: 0 23px;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+
+.hero .first-hero {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.hero .sec-hero {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.hero-input {
+    border-radius: 4px;
+    border: 0.01em solid white;
+    background: transparent;
+    color: rgb(207, 202, 202);
+    font-size: 1rem;
+    padding-top: 1.3rem;
+    padding-bottom: 2.5vh;
+    padding-right: 13vw;
+    padding-left: 0.6vw;
+    text-align: left;
+}
+
+.hero-button {
+    border-radius: 4px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    margin-left: 0.9vw;
+}
+
+/* line breaker  */
+
+.separate {
+    height: 1.2vh;
+    background-color: rgb(49, 49, 49);
+    position: relative;
+    z-index: 30;
+}
+
+/* first section of clone  */
+
+.first {
+    height: 60vh;
+    padding: 4.5rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec1-video {
+    position: relative;
+}
+
+.text-first {
+    width: 35vw;
+}
+
+.section-h2 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.section-span {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.first video {
+    width: 414px;
+    position: absolute;
+    top: 89px;
+    left: 76px;
+}
+
+.first img {
+    width: 554px;
+    position: relative;
+    z-index: 10;
+}
+
+/* line breaker  */
+
+.separate {
+    height: 1.2vh;
+    background-color: rgb(49, 49, 49);
+}
+
+/* second section of clone  */
+
+.second {
+    height: 61vh;
+    padding: 4.5rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second img {
+    width: 35vw;
+}
+
+.text-second {
+    width: 40vw;
+}
+
+/* third section of clone  */
+
+.third {
+    height: 60vh;
+    padding: 4.5rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.third-sec-asset {
+    position: relative;
+    display: flex;
+}
+
+.text-third {
+    width: 37vw;
+}
+
+.third video {
+    position: absolute;
+    width: 377px;
+    top: 59px;
+    left: 110px;
+}
+
+.third img {
+    width: 600px;
+    position: relative;
+    z-index: 10;
+}
+
+/* fourth section of clone  */
+
+.fourth {
+    height: 61vh;
+    padding: 4.5rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fourth img {
+    width: 35vw;
+}
+
+.text-fourth {
+    width: 40vw;
+}
+
+/* fifth section of clone  */
+
+.faq-sec {
+    color: white;
+    text-align: center;
+    width: 75vw;
+    margin: auto;
+}
+
+.faq-sec h2 {
+    margin-bottom: 5vh;
+    margin-top: 10vh;
+}
+
+.faq-sec .box {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2f2f2f;
+    padding: 1.5rem;
+    margin-bottom: 1.5vh;
+}
+
+.hide{
+    background-color: #2f2f2f;
+    padding: 1.5rem;
+    margin-bottom: 1.5vh;
+    display: none;
+    font-size:1.55rem;
+    margin-top: -1.25vh;
+    text-align: left;
+}
+
+.hide-text{
+    display: block;
+    margin-top: 3vh;
+}
+
+.faq-text {
+    font-size: 1.3rem;
+}
+
+.faq-sec .box:hover {
+    cursor: pointer;
+    background-color: #414141;
+    transition: background-color 0.3s linear;
+}
+
+.faq-text-last {
+    font-size: 1.25rem;
+    margin-top: 8vh;
+    margin-bottom: 4vh;
+    font-weight: 400;
+}
+
+.faq-buttons {
+    margin-bottom: 12vh;
+}
+
+/* footer part of the clone  */
+
+.tel-foot a {
+    color: rgb(182, 180, 180);
+
+}
+
+.tel-foot {
+    color: rgb(182, 180, 180);
+    width: 30vw;
+    margin-top: 10vh;
+    margin-left: 10vw;
+}
+
+.link-foot a {
+    color: rgb(182, 180, 180);
+
+}
+
+.link-foot {
+    color: rgb(182, 180, 180);
+    display: flex;
+    gap: 1rem;
+    font-size: 0.9rem;
+    flex-direction: column;
+    width: 11vw;
+    margin-top: 4vh;
+    margin-left: 10vw;
+    margin-bottom: 10vh;
+}
+
+.link-foot select {
+    background-color: transparent;
+    color: white;
+    border-radius: 2px;
+    width: 100%;
+    padding: 1vh 1vw;
+}
+
+.link-foot select option {
+    color: black;
+}
+
+.link-foot span {
+    margin-top: 1vh;
+}
+
+.links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+/* media queries  */
+
+@media screen and (max-width: 1250px) {
+    .links {
+        grid-template-columns: 1fr 1fr;
+    }
+    .link-foot{
+        width: 33vw;
+        margin-bottom: 0;
+    }
+
+    footer{
+        margin-bottom: 5vh;
+    }
+
+    .faq-buttons{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .tel-foot{
+        width: 60vw;
+    }
+
+    .first video {
+        width: 280px;
+        top: 56px;
+        left: 48px;
+    }
+
+    .first img {
+        width: 365px;
+    }
+
+    .first {
+        flex-wrap: wrap;
+    }
+
+    .third video{
+        width: 220px;
+        top: 40px;
+        left: 72px;
+    }
+
+    .text-pad {
+        padding: 30px auto;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+        font-weight: 900;
+    }
+
+
+    .hero .first-hero {
+        font-size: 1.125rem;
+        font-weight: 400;
+    }
+
+    .hero .sec-hero {
+        font-size: 1.125rem;
+        font-weight: 400;
+        line-height: 1.5;
+    }
+
+    nav {
+        width: 90vw;
+    }
+
+    nav img {
+        height: 5vh;
+    }
+
+    .hero-input {
+        padding-left: 10px;
+    }
+
+    .input-hero {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .hero-button {
+        border-radius: 4px;
+        font-size: 3.7vw;
+        font-weight: 600;
+        border: none;
+        background-color: red;
+        color: white;
+        padding: 0.75rem 0.8rem;
+        margin: auto;
+        width: 30vw;
+    }
+
+    .section-h2 {
+        font-size: 2rem;
+        width: 69vw;
+        text-align: -webkit-center;
+    }
+
+    .section-span {
+        margin: 1rem 0 0;
+        font-size: 1.125rem;
+        font-weight: 400;
+        display: block;
+        text-align: -webkit-center;
+    }
+
+    .text-first {
+        width: 100%;
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .text-second {
+        width: 100%;
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
+    .text-third {
+        width: 100%;
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
+    .text-fourth {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        align-self: center;
+    }
+
+    .hide{
+        padding: 1rem;
+        font-size:1.1rem;
+        line-height: 22px;
+    }
+    
+    .hide-text{
+        margin-top: 2vh;
+    }
+}
